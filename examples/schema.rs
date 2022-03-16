@@ -1,7 +1,7 @@
 use std::env::current_dir;
 use std::fs::create_dir_all;
 
-use {{crate_name}}::{export_schema, remove_schemas, schema_for};
+use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
 
 use {{crate_name}}::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
 

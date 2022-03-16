@@ -1,6 +1,7 @@
 [package]
-name = "contract-starter"
+name = "{{project-name}},"
 version = "0.1.0"
+authors = ["{{authors}}"]
 edition = "2018"
 
 exclude = [
